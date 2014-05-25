@@ -1,1 +1,1 @@
-Carrier API
+Node.js app which talks to the XSLT server through a RabbitMQ RPC Channel.
