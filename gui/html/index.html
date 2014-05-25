@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" ng-csp ng-app="xsltGUI">
+  <head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XSLT Converter</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/app.css" />
+  </head>
+
+  <body  ng-controller="bodyController">
+  <div class="row">
+      <div class="col-xs-6">
+          <ul class="nav nav-tabs">
+              <li class="active"><a href="#source" data-toggle="tab">Source Document</a></li>
+              <li><a href="#stylesheet" data-toggle="tab">XSLT Stylesheet</a></li>
+          </ul>
+          <div class="tab-content">
+              <div class="tab-pane active" id="source">     <div ui-ace="sourceEditor" ng-model="dataSource"> </div> </div>
+              <div class="tab-pane"        id="stylesheet"> <div ui-ace="stylesheetEditor" ng-model="dataXSLT"> </div> </div>
+          </div>
+      </div>
+      <div class="col-xs-6">
+          <ul class="nav nav-tabs">
+            <button type="button" class="btn btn-primary btn-sm" ng-click="applyTransformation()">Apply Transformation</button>
+          </ul>
+          <div class="tab-pane" id="json">
+              <div ui-ace="outputEditor" ng-model="dataOutput"> </div>
+          </div>
+      </div>
+  </div>
+
+  <script type="text/javascript" src="../js/jquery.js" charset="utf-8"></script>
+  <script type="text/javascript" src="../js/bootstrap.min.js" charset="utf-8"></script>
+  <script type="text/javascript" src="../js/angularjs/angular.js" charset="utf-8"></script>
+  <script type="text/javascript" src="../js/ace_editor/ace-builds/src-min-noconflict/ace.js" charset="utf-8"></script>
+  <script type="text/javascript" src="../js/ace_editor/angular-ui-ace/ui-ace.js" charset="utf-8"></script>
+  <script type="text/javascript" src="../js/app.js" charset="utf-8"></script>
+  </body>
+
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "xslt-gui",
+  "main": "html/index.html",
+  "window": {
+    "toolbar": true,
+    "width": 1000,
+    "height": 600
+  },
+  "dependencies": {
+    "xml2json": "*",
+    "xml2js": "*",
+    "nw-gyp": "*",
+    "amqp": "*",
+    "q": "*",
+    "winston": "*"
+  }
+}

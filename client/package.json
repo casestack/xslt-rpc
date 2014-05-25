@@ -1,0 +1,15 @@
+{
+  "name": "casestack-carrier-api",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "request": "*",
+    "winston": "*",
+    "forever": "*",
+    "amqp": "*",
+    "q": "*"
+  }
+}
