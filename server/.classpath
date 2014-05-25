@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/saxon-HE-9.5/saxon9he.jar"/>
+	<classpathentry kind="lib" path="lib/rabbitmq-3.2.2/commons-cli-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/rabbitmq-3.2.2/commons-io-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/rabbitmq-3.2.2/junit.jar"/>
+	<classpathentry kind="lib" path="lib/rabbitmq-3.2.2/rabbitmq-client-tests.jar"/>
+	<classpathentry kind="lib" path="lib/rabbitmq-3.2.2/rabbitmq-client.jar"/>
+	<classpathentry kind="lib" path="lib/json-simple-1.1.1/json-simple-1.1.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
